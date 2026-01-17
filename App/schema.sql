@@ -1,7 +1,0 @@
-DROP TABLE IF EXISTS device;
-
-CREATE TABLE device (
-	id INTEGER PRIMARY KEY AUTOINCREMENT,
-	name Text NOT NULL,
-	path Text NOT NULL
-);
